@@ -145,6 +145,27 @@ footer{
 	font-size: 16px;
 }
 
+.btn-small{
+	padding: 10px 20px;
+	height: 45px;
+	width: 100px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #bb9e7d;
+	border-color: #bb9e7d;
+}
+
+.btn-small:hover{
+	color: #000000;
+	background-color: #E8D6CB;
+	border-color: #E6D2C6;}
+p{
+	color: #585757;
+	font-size: 16px;
+	
+}
+
+
 .btn-group-vertical{
     font-family: "Josefin Sans";    
 }
@@ -312,4 +333,28 @@ footer{
 }
 .show{
 	display: block;
+}
+
+/*extra shit remove*/
+.parent-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inline-paragraph {
+	display: inline-block;
+	margin: 0; /* Optional: Remove default margin */
+}
+
+.review-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px; /* Adjust the gap as needed */
+}
+.review-container > div {
+	display: contents; /* Allow the child elements to participate in the grid layout */
+}
+.review-container p {
+	margin: 0; /* Optional: Remove default margin */
 }
